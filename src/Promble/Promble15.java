@@ -1,6 +1,6 @@
 package Promble;
 //双指针  链表中倒数第k个节点
-public class Promble5 {
+public class Promble15 {
 	public static void main(String[] args) {
 		ListNode head=new ListNode();
 		ListNode second=new ListNode();
@@ -14,7 +14,7 @@ public class Promble5 {
 		third.date=3;
 		forth.date=4;
 		
-		Promble5 promble5=new Promble5();
+		Promble15 promble5=new Promble15();
 		ListNode node=promble5.findToTail(head,3);
 		System.out.println(node.date);
 		
