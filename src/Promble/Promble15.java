@@ -9,14 +9,14 @@ public class Promble15 {
 		head.next=second;
 		second.next=third;
 		third.next=forth;
-		head.date=1;
-		second.date=2;
-		third.date=3;
-		forth.date=4;
+		head.data=1;
+		second.data=2;
+		third.data=3;
+		forth.data=4;
 		
 		Promble15 promble5=new Promble15();
 		ListNode node=promble5.findToTail(head,3);
-		System.out.println(node.date);
+		System.out.println(node.data);
 		
 	}
 	public static ListNode  findToTail(ListNode head,int k){

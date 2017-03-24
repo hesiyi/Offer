@@ -6,5 +6,5 @@ package Promble;
  */
 public class ListNode {
     ListNode next;
-    int  date;
+    int  data;
 }
